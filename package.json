@@ -7,7 +7,6 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall": "bower install",
     "pretest": "npm install",
     "test": "node node_modules/.bin/karma start test/karma.conf.js",
     "test-single-run": "node node_modules/.bin/karma start test/karma.conf.js --single-run"
@@ -34,7 +33,6 @@
     "karma": "^0.13.3",
     "karma-chrome-launcher": "^0.2.0",
     "karma-jasmine": "^0.3.6",
-    "bower": "^1.4.1",
     "angular": "^1.2.x",
     "angular-mocks": "^1.2.x"
   }
